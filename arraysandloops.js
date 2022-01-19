@@ -58,8 +58,12 @@ Pyramid(6, "*");
 /* Write while loops to do the following:
 
 – Repeatedly print the value of the variable xValue, decreasing it by 0.5 each time,
-as long as xValue remains positive. */ //PENDIENTE
-
+as long as xValue remains positive. */ 
+var Xvalue = 10;
+while(Xvalue > 1){
+    Xvalue = Xvalue - .5; 
+    console.log(Xvalue);
+}
 
 /*
 - Print all the odd numbers between 1 - 100.
